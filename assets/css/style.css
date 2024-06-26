@@ -1,0 +1,53 @@
+.ctn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: write;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 325px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon img {
+    width: 120px;
+    height: 120px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28C0D4;
+  
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}

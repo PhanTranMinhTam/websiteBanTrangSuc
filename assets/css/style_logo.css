@@ -1,0 +1,88 @@
+.ctn {
+	justify-content: space-around;
+	align-items: center;
+	font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Chia 4 cột bằng nhau */
+    grid-gap: 10px;
+}
+
+.item {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.icon {
+	font-size: 60px;
+	margin-bottom: 20px;
+    padding: 15px;
+}
+
+.text {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.description {
+	font-size: 15px;
+	color: #666;
+}
+.inline-block-item {
+	display: inline-block;
+	vertical-align: top; /* Để giữ các phần tử trên cùng một dòng */
+}
+.copyright_area {
+	display: flex;
+	align-items: center; /* Căn các phần tử theo chiều dọc */
+}
+ /* Your CSS styles here */
+ .social-links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.social-links button {
+	padding: 10px 20px;
+	background-color: red;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.social-links button:hover {
+	background-color: #d32f2f;
+}
+
+.social-links hr {
+	width: 100%;
+	height: 2px;
+	background-color: white; /* Đường gạch màu trắng */
+	border: none;
+	margin-top: 5px; /* Khoảng cách giữa đường gạch và nút */
+}
+
+.social-links span {
+	color: red;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.social-links a {
+	color: #4CAF50;
+	font-size: 24px;
+	margin: 0 5px;
+	transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+	color: #666;
+}
